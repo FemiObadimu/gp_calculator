@@ -1,0 +1,205 @@
+body {
+  background-color: var(--primary);
+  font-weight: 600 !important;
+  font-family: "Ubuntu";
+}
+
+select,
+input {
+  font-size: 14px;
+  outline: none !important;
+  background: var(--primary);
+  font-weight: 600;
+  width: 200px;
+  text-align: center;
+  border-radius: 5px;
+  padding: 10px 15px !important;
+  color: var(--text);
+  border: 2px solid #09f;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+
+h6 {
+  text-align: center;
+  color: var(--text);
+  font-size: 20px;
+  font-weight: 600;
+  letter-spacing: 2px;
+  padding: 20px 0px 10px;
+}
+
+select:focus {
+  background-color: var(--primary);
+  color: var(--text);
+}
+
+button {
+  outline: none !important;
+  border: none;
+  padding: 10px 30px;
+  color: var(--text);
+  font-size: 20px;
+  font-weight: 600;
+  border-radius: 5px;
+  background: rgb(1, 85, 180);
+}
+:root {
+  --primary: #060b11;
+  --sec: #58bceb;
+  --text: #fff;
+  --callText: var(--primary);
+}
+.plus {
+  text-align: right;
+}
+.plus,
+.minus {
+  color: var(--text);
+  background: rgb(43, 135, 241);
+  padding: 10px;
+  position: relative;
+  border-radius: 50%;
+  width: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+  font-weight: 600;
+}
+small {
+  color: var(--text);
+}
+.btns {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px auto;
+  padding: 0 20px;
+}
+.btns div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.loader {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  color: var(--sec);
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Start Styling */
+.box {
+  margin: 50px auto;
+  padding: 50px 0px;
+  width: 400px;
+  height: 500px;
+  background: #030507f1;
+  color: white;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.text-a {
+  font-size: 20px;
+  padding: 0 5px;
+  background: -webkit-linear-gradient(120deg, #09f, rgb(0, 119, 255));
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.text-b {
+  font-size: 30px;
+  padding: 30px 0px;
+  background: -webkit-linear-gradient(120deg, #09f, rgb(0, 119, 255));
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.fa-twitter,
+.fa-instagram,
+.fa-whatsapp,
+.fa-facebook {
+  padding: 0px 3px;
+  color: white;
+}
+
+.fa-angle-double-right {
+  background: -webkit-linear-gradient(
+    120deg,
+    #09f,
+    rgb(0, 119, 255),
+    rgb(68, 0, 255)
+  );
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.small {
+  padding: 5px 20px;
+  font-size: 12px;
+  color: white;
+}
+
+.btn-end {
+  color: white;
+  border-radius: 5px;
+  margin-top: 100px;
+  margin-left: 200px;
+}
+
+.btn:hover {
+  color: white;
+}
+
+.link {
+  background: -webkit-linear-gradient(120deg, #09f, rgb(0, 119, 255));
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 600;
+  font-size: 20px;
+  letter-spacing: 2px;
+}
+
+.container {
+  max-width: 1100px;
+  margin: 0px 30px;
+  overflow: hidden;
+  padding: 0 2rem;
+}
+
+.all-center {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+@media (max-width: 700px) {
+  .box {
+    padding: 100px 0px;
+    width: 290px;
+    height: 600px;
+    margin: 70px auto;
+  }
+
+  .btn-end {
+    border-radius: 5px;
+    margin-top: 100px;
+    margin-left: 100px;
+  }
+}
