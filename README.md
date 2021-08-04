@@ -1,2 +1,2 @@
-Grade Point Calculator
-for use in institution gp scale of 5.00
+Grade Point Calculator..
+Used to calculate GP on a  scale of 5.00
